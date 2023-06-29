@@ -45,15 +45,15 @@ const Navbar = () => {
               <li className="nav-item mx-3 navbar-dropdown">
                 <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
                   Products
-                  <span className="ms-1">
+                  {/* <span className="ms-1">
                     <BsChevronDown className="chevron-icon" size={20} />
-                  </span>
+                  </span> */}
                 </Link>
-                <div style={{}} className="navbar-dropdown-content p-5">
+                {/* <div style={{}} className="navbar-dropdown-content p-5">
                   <h6 className="bg-transparent underline-for-heading">
                     Option 1
                   </h6>
-                </div>
+                </div> */}
               </li>
               <li className="nav-item mx-3">
                 <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
@@ -63,7 +63,7 @@ const Navbar = () => {
 
               <li className="nav-item mx-3">
                 <Link
-                  to="#pricingHere"
+                  to="#pricing"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >

@@ -8,6 +8,7 @@ import {
 } from 'react-icons/bi';
 import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
 import '../styles/footer.css';
+import { Link } from 'gatsby';
 const Footer = () => {
   const iconSocialMedia = [
     { socialIcon: <BiLogoFacebook size={25} />, classes: 'iconStyleFacebook' },
@@ -40,10 +41,18 @@ const Footer = () => {
                   style={{ columnGap: '30px' }}
                   className="d-flex list-unstyled"
                 >
-                  <li className="fw-bold">Products</li>
-                  <li className="fw-bold">Features</li>
-                  <li className="fw-bold">Pricing</li>
-                  <li className="fw-bold">Resources</li>
+                  <Link to="!#">
+                    <li className="fw-bold">Products</li>
+                  </Link>
+                  <Link to="!#">
+                    <li className="fw-bold">Features</li>
+                  </Link>
+                  <Link to="#pricingHere">
+                    <li className="fw-bold">Pricing</li>
+                  </Link>
+                  <Link to="!#">
+                    <li className="fw-bold">Resources</li>
+                  </Link>
                 </ul>
               </div>
             </div>

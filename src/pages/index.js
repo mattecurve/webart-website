@@ -8,7 +8,7 @@ import SimpleSteps from './steps';
 import WorkTogether from './worktogether';
 import UserSpeak from './usercarousel';
 import Faq from './faq';
-import Pricing from './pricing';
+import Pricing from './pricingsection';
 import Layout from '../components/Layout';
 const Home = () => {
   return (
