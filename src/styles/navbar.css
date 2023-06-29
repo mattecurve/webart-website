@@ -1,0 +1,118 @@
+.menu-icons {
+  width: 50px;
+}
+.menu-icon {
+  display: none;
+}
+.webart {
+  margin: auto;
+  color: #000;
+  font-weight: 600;
+}
+
+.nav-menu {
+  display: flex;
+  position: relative;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.nav-links {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+.nav-links:hover {
+  color: grey;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+@media screen and (max-width: 1200px) {
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    line-height: 90px;
+    left: -100%;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    transition: all 0.5s ease;
+    background-color: #000;
+  }
+  .button-link-hidden {
+    display: none;
+  }
+  .nav-menu.active {
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    color: #fff;
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-links:hover {
+    color: grey;
+  }
+
+  .menu-icon {
+    display: block;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    /* transform: translate(-100%, 60%); */
+    /* font-size: 1.8rem; */
+    cursor: pointer;
+  }
+  .chevron-icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar-dropdown:hover .navbar-dropdown-content {
+    display: block;
+  }
+}
+.navbar-dropdown {
+  position: relative;
+}
+
+.navbar-dropdown Link {
+  cursor: pointer;
+}
+
+.navbar-dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  color: #fff;
+  background-color: rgba(37, 36, 39, 1);
+  left: -60px;
+  min-width: 200px;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.font-weight-para-services {
+  font-weight: lighter;
+}
+.give-a-hr {
+  border-right: 2px solid white;
+}

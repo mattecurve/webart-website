@@ -1,0 +1,46 @@
+.inputbox {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.iconStyle {
+  border: 1px solid #000;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.borderTopFooter {
+  border-top: 1px solid #000;
+}
+.iconStyleFacebook:hover {
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+}
+.iconStyleInstagram:hover {
+  background-color: #e4405f;
+  border: 1px solid #e4405f;
+  color: #fff;
+}
+.iconStyleTwitter:hover {
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+}
+.iconStyleLinkedin:hover {
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  color: #fff;
+}
+.iconStyleBehance:hover {
+  background-color: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+.iconStyleGlobe:hover {
+  background-color: #0e90b8;
+  border: 1px solid #0e90b8;
+  color: #fff;
+}

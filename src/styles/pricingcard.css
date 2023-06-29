@@ -1,0 +1,25 @@
+.marginTopPricing {
+  margin-top: 100px;
+}
+.wrapPricing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.pricingSize {
+  border: 1px solid red;
+  width: 200px;
+  height: 300px;
+  padding: 10px 10px;
+  transition: all 0.2s ease-in-out;
+}
+.pricingSize:hover {
+  transform: translateY(-30px);
+  background-image: url('../images/Frame\ 48096016.png');
+  border-radius: 20px;
+}
+
+.pricingSize:hover ~ .heie {
+  color: white;
+}

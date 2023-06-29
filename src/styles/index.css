@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.h1FontSize {
+  font-size: 72px;
+}
+p {
+  color: #37373c;
+}
+.h2FontStyle {
+  font-weight: 600;
+}
+
+.buttonDesign {
+  background-color: #2f80ed;
+  padding: 15px 18px;
+  outline: none;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+}
+.buttonDesign:hover {
+  background-color: #fff;
+  padding: 15px 18px;
+  outline: none;
+  color: #000;
+  border: 0.012rem solid #000;
+  border-radius: 40px;
+}
+.buttonUnDesign {
+  background-color: #fff;
+  padding: 15px 18px;
+  outline: none;
+  border: none;
+  color: #000;
+}
+
+.extraMargin {
+  margin-top: 100px;
+}
+.pGrey {
+  color: #999999;
+}
+.extraFontsizePara {
+  font-size: 14px;
+  color: #999999;
+}

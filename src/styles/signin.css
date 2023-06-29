@@ -1,0 +1,36 @@
+.signInButton {
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  background-color: #000;
+  color: #fff;
+}
+.signInButtonSigninWithgoogle {
+  padding: 12px 30px;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+}
+.sigInColor {
+  color: #2f80ed;
+  font-weight: 500;
+}
+.inputDesign {
+  outline: none;
+  border: none;
+  background-color: #999999;
+  color: #000;
+}
+.inputButtonDesign {
+  border-radius: 40px;
+  width: fit-content;
+  background-color: #999999;
+}
+::-webkit-input-placeholder {
+  color: #000;
+}

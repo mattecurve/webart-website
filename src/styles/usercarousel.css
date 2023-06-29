@@ -1,0 +1,18 @@
+.imgStarWidth {
+  width: 35px;
+}
+.imgUserWidth {
+  width: 50px;
+  height: 50px;
+}
+.ceoTag {
+  font-size: 10px;
+  color: #999999;
+}
+.bgImage {
+  background-image: url('../images//Frame\ 48096016.png');
+  background-repeat: no-repeat;
+  background-size: 120%;
+  color: #fff;
+  overflow: hidden;
+}

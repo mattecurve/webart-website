@@ -1,0 +1,60 @@
+.pricingsize {
+  width: 240px;
+  height: 365px;
+  margin: 10px 15px;
+  border-radius: 20px;
+  transition: all 0.5s ease-in-out;
+}
+.pricingsize:hover {
+  transform: translateY(-15%);
+  background-image: url(../images/Frame\ 48096016.png);
+}
+.pricingsize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainPrice {
+  padding: 50px 0px;
+}
+.textColor {
+  color: #999999;
+}
+#textHeading {
+  color: #000;
+}
+
+.pricingsize:hover #textHeading {
+  color: #fff;
+}
+#iconColor {
+  color: #999999;
+}
+.fontsizeMonth {
+  font-size: 15px;
+}
+
+#changeColor {
+  color: #000;
+}
+.pricingsize:hover #changeColor {
+  color: #fff;
+}
+.linkfontsize {
+  font-size: 15px;
+}
+#buttonChoose {
+  border-radius: 10px;
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  color: #2f80ed;
+  font-weight: 800;
+  font-size: 14px;
+  background-color: #f8f4ff;
+}
+.pricingsize:hover #buttonChoose {
+  background-color: #2f80ed;
+  color: #fff;
+}
