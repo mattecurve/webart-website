@@ -41,16 +41,16 @@ const Footer = () => {
                   style={{ columnGap: '30px' }}
                   className="d-flex list-unstyled"
                 >
-                  <Link to="!#">
+                  <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Products</li>
                   </Link>
-                  <Link to="!#">
+                  <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Features</li>
                   </Link>
-                  <Link to="#pricingHere">
+                  <Link to="#pricingHere" className="LinkGatsby">
                     <li className="fw-bold">Pricing</li>
                   </Link>
-                  <Link to="!#">
+                  <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Resources</li>
                   </Link>
                 </ul>

@@ -56,7 +56,11 @@ p {
   width: fit-content;
   height: 60px;
 }
-Link {
+.LinkGatsby {
   text-decoration: none;
-  text-decoration-style: none;
+  color: #000;
+}
+.LinkGatsby:hover {
+  text-decoration: none;
+  color: #37373c;
 }
