@@ -17,12 +17,14 @@ const Banner = () => {
             {head}
           </h1>
           <p className="col-lg-5 col-md-10 col-12 m-auto mt-4">{description}</p>
-          <button className="buttonDesign mt-3 ">
-            {buttonTitle}
-            <span className="ms-2">
-              <HiOutlineArrowNarrowRight size={20} />
-            </span>
-          </button>
+          <div className="widthButton mt-4 m-auto">
+            <button className="buttonDesign">
+              {buttonTitle}
+              <span className="ms-2">
+                <HiOutlineArrowNarrowRight size={20} />
+              </span>
+            </button>
+          </div>
         </div>
       </div>
       <div className="d-flex justify-content-center mt-5">

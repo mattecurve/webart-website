@@ -77,17 +77,22 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="d-none d-xl-block">
+          <div
+            className="d-none d-xl-block"
+            style={{
+              width: '250px',
+            }}
+          >
             <Link to="#!">
               <button className="buttonUnDesign me-2">
-                Log In{' '}
+                Log In
                 <span className="ms-2">
                   <BsArrowRight size={20} />
                 </span>
               </button>
             </Link>
             <Link to="/signin">
-              <button className="buttonDesign">
+              <button className="buttonDesign ">
                 Sign In
                 <span className="ms-2">
                   <BsArrowRight size={20} />

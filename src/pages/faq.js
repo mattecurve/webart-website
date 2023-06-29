@@ -3,7 +3,7 @@ import Faqquestion from '../components/FaqQuestion';
 import '../styles/faq.css';
 const Faq = () => {
   const head = 'Frequently Asked Questions';
-  const description = 'Can’t find the answers here? Check out our';
+  const description = 'Can’t find the answers here? Check out our ';
   const span = 'help center';
 
   const [faqs, setFaqs] = useState([

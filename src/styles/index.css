@@ -29,7 +29,7 @@ p {
   padding: 15px 18px;
   outline: none;
   color: #000;
-  border: 0.012rem solid #000;
+  border: 1px solid #000;
   border-radius: 40px;
 }
 .buttonUnDesign {
@@ -38,6 +38,8 @@ p {
   outline: none;
   border: none;
   color: #000;
+  border-radius: 40px;
+  border: 1px solid #fff;
 }
 
 .extraMargin {
@@ -49,4 +51,8 @@ p {
 .extraFontsizePara {
   font-size: 14px;
   color: #999999;
+}
+.widthButton {
+  width: fit-content;
+  height: 60px;
 }
