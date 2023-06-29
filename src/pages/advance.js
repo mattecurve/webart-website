@@ -42,12 +42,12 @@ const AdvanceDesign = () => {
           {advanceData1.map((item, i) => {
             return (
               <div key={i} className="d-flex flex-wrap extraMargin">
-                <div className="col-lg-7 col-md-6 col-12">
-                  <div>
-                    <img src={item.img} alt="img" className="img-fluid  " />
+                <div className="col-lg-7  col-md-6 col-12 d-flex justify-content-start align-items-center">
+                  <div className="">
+                    <img src={item.img} alt="img" className="img-fluid" />
                   </div>
                 </div>
-                <div className="col-lg-5 col-md-6 col-12 d-flex justify-content-center align-items-center">
+                <div className="col-lg-5 col-md-6 col-12 d-flex justify-content-center align-items-center mt-lg-0 mt-md-0 mt-5">
                   <div className="">
                     <img
                       src={item.arrowImg}
@@ -81,7 +81,7 @@ const AdvanceDesign = () => {
                   <img src={item.img} alt="img" className="img-fluid" />
                 </div>
               </div>
-              <div className="col-lg-5 col-md-6 col-12 d-flex justify-content-center align-items-center">
+              <div className="col-lg-5 col-md-6 col-12 d-flex justify-content-center align-items-center mt-lg-0 mt-md-0 mt-5">
                 <div className="">
                   <img
                     src={item.arrowImg}
