@@ -6,6 +6,7 @@ import advanceImg1 from '../images/advanceImg.png';
 import advanceImg2 from '../images/advanceImg2.png';
 const AdvanceDesign = () => {
   const head = 'Advanced Desgin Features';
+  const buttonTitle = 'Start Building';
 
   const advanceData1 = [
     {
@@ -88,7 +89,7 @@ const AdvanceDesign = () => {
                   <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
                   <p>{item.description}</p>
                   <button className="buttonDesign mt-2 ">
-                    Start Building
+                    {buttonTitle}
                     <span className="ms-2">
                       <HiOutlineArrowNarrowRight size={20} />
                     </span>

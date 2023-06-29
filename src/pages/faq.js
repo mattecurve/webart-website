@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import Faqquestion from '../components/FaqQuestion';
 import '../styles/faq.css';
 const Faq = () => {
+  const head = 'Frequently Asked Questions';
+  const description = 'Can’t find the answers here? Check out our';
+  const span = 'help center';
+
   const [faqs, setFaqs] = useState([
     {
       question: 'Lorem ipsum dolor sit amet consectetu.',
@@ -40,10 +44,10 @@ const Faq = () => {
     <div className="py-5">
       <div className="px-lg-5 px-md-3 px-1">
         <div className="text-center">
-          <h2 className="fw-bold">Frequently Asked Questions</h2>
+          <h2 className="fw-bold">{head}</h2>
           <p className="pGrey">
-            Can’t find the answers here? Check out our{' '}
-            <span className="underlineHelpCenter">help center</span>.
+            {description}
+            <span className="underlineHelpCenter">{span}</span>.
           </p>
         </div>
         <div className="faqs mt-5">
