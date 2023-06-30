@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import '../styles/navbar.css';
 import humberg from '../images/humberg.png';
 import cross from '../images/cross.png';
-// import { BsChevronDown } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 
 const Navbar = () => {
@@ -11,7 +10,7 @@ const Navbar = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
+  //
   return (
     <>
       <header className="">
@@ -75,24 +74,8 @@ const Navbar = () => {
                   Resources
                 </Link>
               </li>
-
-              <li className="nav-item mx-3">
-                <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
-                  Log In
-                </Link>
-              </li>
-              <li className="nav-item mx-3">
-                <Link
-                  to="signin"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Sign Up
-                </Link>
-              </li>
             </ul>
           </div>
-
           <div
             className="d-none d-xl-block"
             style={{
