@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <Layout>
       <Helmet>
-        <title>{headline} - MatteCurve Technologies Private Limited</title>
+        <title>{headline}</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
       </Helmet>

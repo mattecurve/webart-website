@@ -21,7 +21,7 @@ const Help = () => {
     },
   ];
   return (
-    <div className="py-5">
+    <div className="py-5" id="contact">
       <div className="px-lg-5 px-md-3 px-0">
         <div
           style={{ rowGap: '40px' }}

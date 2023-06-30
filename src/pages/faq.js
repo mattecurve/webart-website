@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Faqquestion from '../components/FaqQuestion';
 import '../styles/faq.css';
+import { Link } from 'gatsby';
 const Faq = () => {
   const head = 'Frequently Asked Questions';
   const description = 'Can’t find the answers here?';
@@ -72,7 +73,9 @@ const Faq = () => {
           <h2 className="fw-bold">{head}</h2>
           <p className="pGrey">
             {description}&nbsp;
-            <span className="underlineHelpCenter">{span}</span>.
+            <Link className="LinkGatsby" to="#contact">
+              <span className="underlineHelpCenter">{span}</span>.
+            </Link>
           </p>
         </div>
         <div className="faqs mt-5">
