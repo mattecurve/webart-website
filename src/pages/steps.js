@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/steps.css';
-import stepImg from '../images/stepimg.png';
+import stepImg from '../images/Rectangle.png';
 const SimpleSteps = () => {
   const stepData = [
     {
@@ -37,7 +37,8 @@ const SimpleSteps = () => {
             return (
               <div className="col-lg-4 col-md-4 col-12 p-2">
                 <div className="sizeStepBox bgSteps ">
-                  <div className="mt-4">{item.icon}</div>
+                  {/* here Stepimg isn't working */}
+                  <div className="mt-4">icon</div>
                   <h3 className="mt-3">{item.title}</h3>
                   <p className="pGrey">{item.description}</p>
                 </div>
