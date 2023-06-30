@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/pricing.css';
-import annual from '../images/anual.png';
 import PricingCard from '../components/PricingCard';
 
 const Pricing = () => {
   const head = 'Pricing';
-  const description =
-    '  We have several powerful plans to showcase your business and get discovered as a creative entrepreneurs. Everything you need.';
 
   return (
     <div className="py-5">

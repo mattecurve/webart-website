@@ -1,12 +1,12 @@
 import React from 'react';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import {
-  BiLogoFacebook,
+  // BiLogoFacebook,
   BiLogoLinkedin,
-  BiLogoBehance,
-  BiGlobe,
+  // BiLogoBehance,
+  // BiGlobe,
 } from 'react-icons/bi';
-import { AiOutlineInstagram, AiOutlineTwitter } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
 import '../styles/footer.css';
 import { Link } from 'gatsby';
 const Footer = () => {

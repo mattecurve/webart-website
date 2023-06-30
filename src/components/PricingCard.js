@@ -3,8 +3,7 @@ import '../styles/pricingcard.css';
 
 import { TiTick } from 'react-icons/ti';
 const PricingCard = () => {
-  const billMonthly = 'Bill Monthly';
-  const annualMonthly = 'Bill Annually';
+  const [toggleButton, setToggleButton] = useState(true);
 
   const data1 = [
     {
@@ -45,7 +44,8 @@ const PricingCard = () => {
     },
   ];
 
-  const [toggleButton, setToggleButton] = useState(false);
+  const billMonthly = 'Bill Monthly';
+  const annualMonthly = 'Bill Annually';
 
   const handleClick = () => {
     setToggleButton(!toggleButton);
@@ -55,7 +55,7 @@ const PricingCard = () => {
       <div className="">
         <div className="mx-auto col-lg-4 col-12 col-md-6 col-sm-8  d-flex flex-row justify-content-evenly">
           <h6 className="my-auto fw-bold">{billMonthly}</h6>
-          <div className="toggle" onClick={handleClick}>
+          <div className="toggle" aria-hidden="true" onClick={handleClick}>
             {toggleButton ? (
               <div className="toggle_left"></div>
             ) : (

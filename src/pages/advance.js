@@ -85,7 +85,7 @@ const AdvanceDesign = () => {
                     <p>{item.description}</p>
                     <div className="widthButton ">
                       <button className="buttonDesign  ">
-                        Start Building
+                        {buttonTitle}
                         <span className="ms-2">
                           <HiOutlineArrowNarrowRight size={20} />
                         </span>
@@ -120,7 +120,7 @@ const AdvanceDesign = () => {
                     <p>{item.description}</p>
                     <div className="widthButton ">
                       <button className="buttonDesign  ">
-                        Start Building
+                        {buttonTitle}
                         <span className="ms-2">
                           <HiOutlineArrowNarrowRight size={20} />
                         </span>
@@ -152,7 +152,7 @@ const AdvanceDesign = () => {
                     <p>{item.description}</p>
                     <div className="widthButton ">
                       <button className="buttonDesign  ">
-                        Start Building
+                        {buttonTitle}
                         <span className="ms-2">
                           <HiOutlineArrowNarrowRight size={20} />
                         </span>
