@@ -25,7 +25,7 @@ const UserSpeak = () => {
   ];
 
   return (
-    <div className="py-5">
+    <div className="extraPaddingForUserReview">
       <div className="container">
         <div className="">
           <h2 className="fw-bold m-auto col-lg-4 col-md-6 col-sm-8 col-12  text-center">

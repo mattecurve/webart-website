@@ -48,7 +48,6 @@
     color: #fff;
     transition: all 0.5s ease;
     background-color: #000;
-    border: 1px solid red;
   }
   .button-link-hidden {
     display: none;

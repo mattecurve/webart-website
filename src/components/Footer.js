@@ -43,7 +43,7 @@ const Footer = () => {
                   <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Features</li>
                   </Link>
-                  <Link to="#pricingHere" className="LinkGatsby">
+                  <Link to="#pricing" className="LinkGatsby">
                     <li className="fw-bold">Pricing</li>
                   </Link>
                   <Link to="!#" className="LinkGatsby">

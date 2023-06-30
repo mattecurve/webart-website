@@ -64,3 +64,7 @@ p {
   text-decoration: none;
   color: #37373c;
 }
+
+.extraPaddingForUserReview {
+  padding: 120px 0px;
+}

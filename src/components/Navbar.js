@@ -75,8 +75,24 @@ const Navbar = () => {
                   Resources
                 </Link>
               </li>
+
+              <li className="nav-item mx-3">
+                <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
+                  Log In
+                </Link>
+              </li>
+              <li className="nav-item mx-3">
+                <Link
+                  to="signin"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
+                  Sign Up
+                </Link>
+              </li>
             </ul>
           </div>
+
           <div
             className="d-none d-xl-block"
             style={{
