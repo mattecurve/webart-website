@@ -12,7 +12,7 @@ import Pricing from './pricingsection';
 import Layout from '../components/Layout';
 import { Helmet } from 'react-helmet';
 const Home = () => {
-  const headline = 'webart.io';
+  const headline = 'BuildSite.io';
   return (
     <Layout>
       <Helmet>

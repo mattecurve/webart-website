@@ -19,7 +19,7 @@ const SimpleSteps = () => {
       icon: stepImg,
       title: 'Launch Website',
       description:
-        'Launch your website or landing page with either webart.io subdomain or your personal or business domain.',
+        'Launch your website or landing page with either BuildSite.io subdomain or your personal or business domain.',
     },
   ];
 
@@ -27,7 +27,7 @@ const SimpleSteps = () => {
     <div className="py-5" style={{ backgroundColor: '#171719' }}>
       <div className="px-lg-5 px-md-3 px-1 my-4 text-white">
         <div className="">
-          <h2 className="">Start using webart.io in 3 simple steps</h2>
+          <h2 className="">Start using BuildSite.io in 3 simple steps</h2>
           <p className="text-white col-lg-4 col-md-8 col-sm-8 col-12">
             Launch your website in minutes
           </p>

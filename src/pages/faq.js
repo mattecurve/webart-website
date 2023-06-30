@@ -28,26 +28,27 @@ const Faq = () => {
     {
       question: 'How do I build and host my site for free?',
       answer:
-        'You can launch your website for free with webart.io subdomain. You will have to pay to launch your website on custom domain.',
+        'You can launch your website for free with BuildSite.io subdomain. You will have to pay to launch your website on custom domain.',
       open: false,
     },
     {
-      question: 'Is website built on webart.io SEO optimized?',
-      answer: 'Yes, all the websites launched on webart.io are SEO optimized.',
+      question: 'Is website built on BuildSite.io SEO optimized?',
+      answer:
+        'Yes, all the websites launched onBuildSite.io are SEO optimized.',
       open: false,
     },
     {
-      question: 'Can I use webart.io to create a landing page?',
+      question: 'Can I use BuildSite.io to create a landing page?',
       answer: 'Yes, you can create a landing or a website.',
       open: false,
     },
     {
-      question: 'Do webart.io website work on mobile?',
+      question: 'Do BuildSite.io website work on mobile?',
       answer: 'Yes, all the websites are mobile friendly.',
       open: false,
     },
     {
-      question: 'Can I export my data from the webart.io platform?',
+      question: 'Can I export my data from the BuildSite.io platform?',
       answer: 'Yes, you can export all the leads data.',
       open: false,
     },

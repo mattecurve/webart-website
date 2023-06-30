@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="d-flex flex-wrap pb-5">
           <div className="col-lg-7  col-12">
             <div className="">
-              <h3 className="fw-bold  py-2">webart.io</h3>
+              <h3 className="fw-bold  py-2">BuildSite.io</h3>
               <div className="mt-4">
                 <ul
                   style={{ columnGap: '30px' }}
@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="px-lg-5 px-md-3 px-1 ">
           <div className="d-flex flex-wrap align-items-center">
             <div className="col-lg-6 col-12">
-              <p className="my-auto">@webart.io All rights reserved</p>
+              <p className="my-auto">@BuildSite.io All rights reserved</p>
             </div>
             <div className="col-lg-6 col-12">
               <div

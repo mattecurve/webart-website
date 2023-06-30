@@ -22,7 +22,7 @@ const Navbar = () => {
               to="/"
               className="navbar-logo"
             >
-              <h4 className="webart">webart.io</h4>
+              <h4 className="webart">BuildSite.io</h4>
             </Link>
 
             <ul className={click ? 'nav-menu active' : 'nav-menu my-auto'}>

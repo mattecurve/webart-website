@@ -5,15 +5,15 @@ const Help = () => {
   const helpData = [
     {
       head: 'Help',
-      subheading: 'Contact us as contact@webart.io.',
+      subheading: 'Contact us as contact@BuildSite.io.',
     },
     {
       head: 'Contact',
-      subheading: 'Contact us as contact@webart.io.',
+      subheading: 'Contact us as contact@BuildSite.io.',
     },
     {
       head: 'Get to know us',
-      subheading: 'Contact us as contact@webart.io.',
+      subheading: 'Contact us as contact@BuildSite.io.',
     },
     {
       head: 'Hire an Expert',

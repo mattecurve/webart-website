@@ -8,19 +8,19 @@ const UserSpeak = () => {
       profile: UserProfile,
       name: 'Prateek Agarwal',
       description:
-        '  We have launched our business website withing few minutes of using webart.io. The website is super fast and cool.',
+        '  We have launched our business website withing few minutes of using BuildSite.io. The website is super fast and cool.',
     },
     {
       name: 'Harish Sharma',
       profile: UserProfile,
       description:
-        '  We have launched our business website withing few minutes of using webart.io. The website is super fast and cool.(2)',
+        '  We have launched our business website withing few minutes of using BuildSite.io. The website is super fast and cool.(2)',
     },
     {
       profile: UserProfile,
       name: 'john Vick',
       description:
-        '  We have launched our business website withing few minutes of using webart.io. The website is super fast and cool.(3)',
+        '  We have launched our business website withing few minutes of using BuildSite.io. The website is super fast and cool.(3)',
     },
   ];
 
@@ -32,7 +32,7 @@ const UserSpeak = () => {
             Here's what our users speak about us.
           </h2>
           <p className="col-lg-6 col-12 text-center m-auto">
-            Join thousands of teams who already use webart.io.
+            Join thousands of teams who already use BuildSite.io
           </p>
         </div>
         <div className="mt-5">
