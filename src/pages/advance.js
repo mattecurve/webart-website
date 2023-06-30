@@ -4,6 +4,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import selectArrow from '../images/selectArrow.png';
 import advanceImg1 from '../images/advanceImg.png';
 import advanceImg2 from '../images/advanceImg2.png';
+
 const AdvanceDesign = () => {
   const head = 'Advanced Desgin Features';
   const buttonTitle = 'Start Building';

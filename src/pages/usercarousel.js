@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/usercarousel.css';
 import UserProfile from '../images/userProfile.png';
 import { Carousel } from 'react-bootstrap';
@@ -42,7 +42,7 @@ const UserSpeak = () => {
                 <Carousel.Item data-bs-theme="dark">
                   <div className="container ">
                     <div className="col-lg-9  col-12 mx-auto">
-                      <div className="d-flex flex-wrap rounded shadow  px-3">
+                      <div className="d-flex flex-wrap rounded shadowUser  px-3">
                         <div className="col-lg-6 col-md-6 col-12">
                           <div className="my-4">
                             <div className="d-flex justify-content-start align-items-center">
