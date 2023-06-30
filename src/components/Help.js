@@ -5,19 +5,19 @@ const Help = () => {
   const helpData = [
     {
       head: 'Help',
-      subheading: 'Lorem ipsum dolor sit amet consectetur.',
+      subheading: 'Contact us as contact@webart.io.',
     },
     {
       head: 'Contact',
-      subheading: 'Lorem ipsum dolor sit amet consectetur.',
+      subheading: 'Contact us as contact@webart.io.',
     },
     {
       head: 'Get to know us',
-      subheading: 'Lorem ipsum dolor sit amet consectetur.',
+      subheading: 'Contact us as contact@webart.io.',
     },
     {
       head: 'Hire an Expert',
-      subheading: 'Lorem ipsum dolor sit amet consectetur.',
+      subheading: 'Contact us as onkar@mattecurve.com',
     },
   ];
   return (

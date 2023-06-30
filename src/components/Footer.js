@@ -11,18 +11,18 @@ import '../styles/footer.css';
 import { Link } from 'gatsby';
 const Footer = () => {
   const iconSocialMedia = [
-    { socialIcon: <BiLogoFacebook size={25} />, classes: 'iconStyleFacebook' },
-    {
-      socialIcon: <AiOutlineInstagram size={25} />,
-      classes: 'iconStyleInstagram',
-    },
+    // { socialIcon: <BiLogoFacebook size={25} />, classes: 'iconStyleFacebook' },
+    // {
+    //   socialIcon: <AiOutlineInstagram size={25} />,
+    //   classes: 'iconStyleInstagram',
+    // },
     {
       socialIcon: <AiOutlineTwitter size={25} />,
       classes: 'iconStyleTwitter',
     },
     { socialIcon: <BiLogoLinkedin size={25} />, classes: 'iconStyleLinkedin' },
-    { socialIcon: <BiLogoBehance size={25} />, classes: 'iconStyleBehance' },
-    { socialIcon: <BiGlobe size={25} />, classes: 'iconStyleGlobe' },
+    // { socialIcon: <BiLogoBehance size={25} />, classes: 'iconStyleBehance' },
+    // { socialIcon: <BiGlobe size={25} />, classes: 'iconStyleGlobe' },
   ];
 
   return (
@@ -32,18 +32,14 @@ const Footer = () => {
           <div className="col-lg-7  col-12">
             <div className="">
               <h3 className="fw-bold  py-2">webart.io</h3>
-              <div className="my-4 ">
-                <h6 className="fw-bold my-auto">Inquries</h6>
-                <p className="my-auto">mail@webart.com</p>
-              </div>
-              <div className="">
+              <div className="mt-4">
                 <ul
                   style={{ columnGap: '30px' }}
                   className="d-flex list-unstyled"
                 >
-                  <Link to="!#" className="LinkGatsby">
+                  {/* <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Products</li>
-                  </Link>
+                  </Link> */}
                   <Link to="!#" className="LinkGatsby">
                     <li className="fw-bold">Features</li>
                   </Link>
@@ -78,7 +74,7 @@ const Footer = () => {
         <div className="px-lg-5 px-md-3 px-1 ">
           <div className="d-flex flex-wrap align-items-center">
             <div className="col-lg-6 col-12">
-              <p className="my-auto">@webaer.io. All rights reserved</p>
+              <p className="my-auto">@webart.io All rights reserved</p>
             </div>
             <div className="col-lg-6 col-12">
               <div

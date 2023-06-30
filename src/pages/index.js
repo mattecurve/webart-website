@@ -10,9 +10,16 @@ import UserSpeak from './usercarousel';
 import Faq from './faq';
 import Pricing from './pricingsection';
 import Layout from '../components/Layout';
+import { Helmet } from 'react-helmet';
 const Home = () => {
+  const headline = 'webart.io';
   return (
     <Layout>
+      <Helmet>
+        <title>{headline} - MatteCurve Technologies Private Limited</title>
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+      </Helmet>
       <Banner />
       <AdvanceDesign />
       <SimpleSteps />

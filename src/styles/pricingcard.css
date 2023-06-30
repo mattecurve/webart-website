@@ -8,18 +8,47 @@
   gap: 40px;
 }
 .pricingSize {
-  border: 1px solid red;
-  width: 200px;
-  height: 300px;
+  width: 360px;
+  height: 510px;
   padding: 10px 10px;
   transition: all 0.2s ease-in-out;
 }
 .pricingSize:hover {
   transform: translateY(-30px);
   background-image: url('../images/Frame\ 48096016.png');
+  background-size: cover;
   border-radius: 20px;
 }
+.pricingSize:hover #textHeading {
+  color: #fff;
+}
+.pricingSize:hover #buttonChoose {
+  background: #2f80ed;
+  color: #fff;
+}
 
-.pricingSize:hover ~ .heie {
-  color: white;
+.toggle {
+  background-color: #000;
+  height: 26px;
+  width: 60px;
+  border-radius: 30px;
+  /* margin-top: 30px; */
+  display: flex;
+}
+
+.toggle_left {
+  height: 16px;
+  width: 16px;
+  background-color: #2f80ed;
+  border-radius: 20px;
+  margin: 5px;
+  transition: all 0.1s ease-in-out;
+}
+.toggle_right {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 5px 5px 5px 35px;
+  transition: all 0.1s ease-in-out;
 }

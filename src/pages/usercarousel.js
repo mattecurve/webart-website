@@ -18,7 +18,7 @@ const UserSpeak = () => {
             Here's what our users speak about us.
           </h2>
           <p className="col-lg-6 col-12 text-center m-auto">
-            Join thousands of teams who already use Webart.io
+            Join thousands of teams who already use webart.io.
           </p>
         </div>
         <Carousel

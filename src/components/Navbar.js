@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import '../styles/navbar.css';
 import humberg from '../images/humberg.png';
 import cross from '../images/cross.png';
-import { BsChevronDown } from 'react-icons/bs';
+// import { BsChevronDown } from 'react-icons/bs';
 import { BsArrowRight } from 'react-icons/bs';
 
 const Navbar = () => {
@@ -42,26 +42,26 @@ const Navbar = () => {
                   ''
                 )}
               </div>
-              <li className="nav-item mx-3 navbar-dropdown">
+              {/* <li className="nav-item mx-3 navbar-dropdown">
                 <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
-                  Products
-                  {/* <span className="ms-1">
+                  Products */}
+              {/* <span className="ms-1">
                     <BsChevronDown className="chevron-icon" size={20} />
                   </span> */}
-                </Link>
-                {/* <div style={{}} className="navbar-dropdown-content p-5">
+              {/* </Link> */}
+              {/* <div style={{}} className="navbar-dropdown-content p-5">
                   <h6 className="bg-transparent underline-for-heading">
                     Option 1
                   </h6>
                 </div> */}
-              </li>
+              {/* </li> */}
               <li className="nav-item mx-3">
                 <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
                   Features
                 </Link>
               </li>
 
-              <li className="nav-item mx-3">
+              {/* <li className="nav-item mx-3">
                 <Link
                   to="#pricing"
                   className="nav-links"
@@ -69,7 +69,7 @@ const Navbar = () => {
                 >
                   Pricing
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item mx-3">
                 <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
                   Resources
@@ -93,7 +93,7 @@ const Navbar = () => {
             </Link>
             <Link to="/signin">
               <button className="buttonDesign ">
-                Sign In
+                Sign Up
                 <span className="ms-2">
                   <BsArrowRight size={20} />
                 </span>
