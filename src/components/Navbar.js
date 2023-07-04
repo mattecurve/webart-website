@@ -55,7 +55,7 @@ const Navbar = () => {
                 </div> */}
               {/* </li> */}
               <li className="nav-item mx-3">
-                <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="#" className="nav-links" onClick={closeMobileMenu}>
                   Features
                 </Link>
               </li>
@@ -70,7 +70,7 @@ const Navbar = () => {
                 </Link>
               </li> */}
               <li className="nav-item mx-3">
-                <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="#" className="nav-links" onClick={closeMobileMenu}>
                   Resources
                 </Link>
               </li>

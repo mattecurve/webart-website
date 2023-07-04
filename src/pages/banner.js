@@ -4,7 +4,7 @@ import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import BannerImg from '../images/banner.png';
 
 const Banner = () => {
-  const head = 'Static. Fast. SEO - Friendly Website. Only 100 INR/month';
+  const head = 'Static. Fast. SEO - Friendly Website. Only 100 INR/month!';
   const description =
     ' Welcome to our professional website service, offering you a static, fast, and SEO-friendly online presence at an affordable price of only 100 INR/month.';
   const buttonTitle = 'Start Building';
