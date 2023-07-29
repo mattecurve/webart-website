@@ -11,20 +11,20 @@ const SimpleSteps = () => {
     },
     {
       icon: stepImg,
-      title: 'Select Theme and Template',
+      title: 'Select Theme and Customize',
       description:
-        'Select theme and template and open editor to customize your website.',
+        'Select theme and customize as per your needs.',
     },
     {
       icon: stepImg,
-      title: 'Launch Website',
+      title: 'Launch',
       description:
         'Launch your website or landing page with either BuildSite.io subdomain or your personal or business domain.',
     },
   ];
 
   return (
-    <div className="py-5" style={{ backgroundColor: '#171719' }}>
+    <div className="py-5 steps-container" style={{ backgroundColor: '#16163f' }}>
       <div className="px-lg-5 px-md-3 px-1 my-4 text-white">
         <div className="">
           <h2 className="">Start using BuildSite.io in 3 simple steps</h2>
@@ -37,8 +37,7 @@ const SimpleSteps = () => {
             return (
               <div className="col-lg-4 col-md-4 col-12 p-2">
                 <div className="sizeStepBox bgSteps ">
-                  {/* here Stepimg isn't working */}
-                  <div className="mt-4">icon</div>
+                  <div className="mt-4 circle">{i + 1}</div>
                   <h3 className="mt-3">{item.title}</h3>
                   <p className="pGrey">{item.description}</p>
                 </div>

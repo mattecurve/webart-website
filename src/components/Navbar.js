@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import '../styles/navbar.css';
 import humberg from '../images/humberg.png';
 import cross from '../images/cross.png';
+import logo from '../images/logo.png';
 import { BsArrowRight } from 'react-icons/bs';
+import ThemeButton from './button';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -21,7 +23,8 @@ const Navbar = () => {
               to="/"
               className="navbar-logo"
             >
-              <h4 className="webart">BuildSite.io</h4>
+              <img className="logo" src={logo} />
+              {/* <h4 className="webart">BuildSite.io</h4> */}
             </Link>
 
             <ul className={click ? 'nav-menu active' : 'nav-menu my-auto'}>
@@ -41,63 +44,32 @@ const Navbar = () => {
                   ''
                 )}
               </div>
-              {/* <li className="nav-item mx-3 navbar-dropdown">
-                <Link to="#!" className="nav-links" onClick={closeMobileMenu}>
-                  Products */}
-              {/* <span className="ms-1">
-                    <BsChevronDown className="chevron-icon" size={20} />
-                  </span> */}
-              {/* </Link> */}
-              {/* <div style={{}} className="navbar-dropdown-content p-5">
-                  <h6 className="bg-transparent underline-for-heading">
-                    Option 1
-                  </h6>
-                </div> */}
-              {/* </li> */}
               <li className="nav-item mx-3">
-                <Link to="#" className="nav-links" onClick={closeMobileMenu}>
+                <Link to="#features" className="nav-links" onClick={closeMobileMenu}>
                   Features
                 </Link>
               </li>
-
-              {/* <li className="nav-item mx-3">
-                <Link
-                  to="#pricing"
-                  className="nav-links"
-                  onClick={closeMobileMenu}
-                >
-                  Pricing
-                </Link>
-              </li> */}
               <li className="nav-item mx-3">
-                <Link to="#" className="nav-links" onClick={closeMobileMenu}>
-                  Resources
+                <Link to="#pricing" className="nav-links" onClick={closeMobileMenu}>
+                  Pricing
                 </Link>
               </li>
             </ul>
           </div>
-          <div
-            className="d-none d-xl-block"
-            style={{
-              width: '250px',
-            }}
-          >
-            <Link to="#!">
-              <button className="buttonUnDesign me-2">
-                Log In
-                <span className="ms-2">
-                  <BsArrowRight size={20} />
-                </span>
-              </button>
-            </Link>
-            <Link to="/signin">
-              <button className="buttonDesign ">
-                Sign Up
-                <span className="ms-2">
-                  <BsArrowRight size={20} />
-                </span>
-              </button>
-            </Link>
+          <div className="d-none d-xl-block">
+            <div className='d-inline-block'>
+              <Link to="https://form.buildsite.io/" target='_blank'>
+                <button className="buttonUnDesign me-2">
+                  Log In
+                  <span className="ms-2">
+                    <BsArrowRight size={20} />
+                  </span>
+                </button>
+              </Link>
+            </div>
+            <div className='d-inline-block'>
+              <ThemeButton arrow={true} buttonTitle={'Sign Up'}></ThemeButton>
+            </div>
           </div>
           <div className="menu-icon" onClick={handleClick} aria-hidden="true">
             {click ? (

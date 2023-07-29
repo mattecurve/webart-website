@@ -16,11 +16,11 @@ const Footer = () => {
     //   socialIcon: <AiOutlineInstagram size={25} />,
     //   classes: 'iconStyleInstagram',
     // },
-    {
-      socialIcon: <AiOutlineTwitter size={25} />,
-      classes: 'iconStyleTwitter',
-    },
-    { socialIcon: <BiLogoLinkedin size={25} />, classes: 'iconStyleLinkedin' },
+    // {
+    //   socialIcon: <AiOutlineTwitter size={25} />,
+    //   classes: 'iconStyleTwitter',
+    // },
+    // { socialIcon: <BiLogoLinkedin size={25} />, classes: 'iconStyleLinkedin' },
     // { socialIcon: <BiLogoBehance size={25} />, classes: 'iconStyleBehance' },
     // { socialIcon: <BiGlobe size={25} />, classes: 'iconStyleGlobe' },
   ];
@@ -38,25 +38,25 @@ const Footer = () => {
                   className="d-flex list-unstyled"
                 >
                   {/* <Link to="!#" className="LinkGatsby">
-                    <li className="fw-bold">Products</li>
+                    <li>Products</li>
                   </Link> */}
-                  <Link to="#" className="LinkGatsby">
-                    <li className="fw-bold">Features</li>
+                  <Link to="#features" className="LinkGatsby">
+                    <li>Features</li>
                   </Link>
                   <Link to="#pricing" className="LinkGatsby">
-                    <li className="fw-bold">Pricing</li>
+                    <li>Pricing</li>
                   </Link>
-                  <Link to="#" className="LinkGatsby">
-                    <li className="fw-bold">Resources</li>
-                  </Link>
+                  {/* <Link to="#" className="LinkGatsby">
+                    <li>Resources</li>
+                  </Link> */}
                 </ul>
               </div>
             </div>
           </div>
           <div className="col-lg-5  my-auto col-12">
-            <div className="mt-lg-0 mt-4">
+            {/* <div className="mt-lg-0 mt-4">
               <h2 className="">
-                Don’t miss the chance get a demo from our team
+                Don't miss the chance get a demo from our team
               </h2>
               <div className="col-lg-12 col-md-9 col-sm-9  d-flex border-bottom align-items-center">
                 <input
@@ -66,7 +66,7 @@ const Footer = () => {
                 />
                 <HiOutlineArrowNarrowRight />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@ const Footer = () => {
         <div className="px-lg-5 px-md-3 px-1 ">
           <div className="d-flex flex-wrap align-items-center">
             <div className="col-lg-6 col-12">
-              <p className="my-auto">@BuildSite.io All rights reserved</p>
+              <p className="my-auto">© 2023 MatteCurve Technologies Pvt. Ltd. All rights reserved</p>
             </div>
             <div className="col-lg-6 col-12">
               <div

@@ -5,15 +5,15 @@ const Help = () => {
   const helpData = [
     {
       head: 'Help',
-      subheading: 'Contact us as contact@BuildSite.io.',
+      subheading: 'Contact us as onkar@buildsite.io',
     },
     {
       head: 'Contact',
-      subheading: 'Contact us as contact@BuildSite.io.',
+      subheading: 'Contact us as onkar@buildsite.io',
     },
     {
       head: 'Get to know us',
-      subheading: 'Contact us as contact@BuildSite.io.',
+      subheading: 'Contact us as onkar@buildsite.io',
     },
     {
       head: 'Hire an Expert',
@@ -24,8 +24,8 @@ const Help = () => {
     <div className="py-5" id="contact">
       <div className="px-lg-5 px-md-3 px-0">
         <div
-          style={{ rowGap: '40px' }}
-          className="d-flex flex-wrap bg-dark text-white py-5 rounded"
+          style={{ rowGap: '40px', backgroundColor: '#16163f' }}
+          className="d-flex flex-wrap text-white py-5 rounded"
         >
           {helpData.map((item, i) => {
             return (

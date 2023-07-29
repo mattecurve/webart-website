@@ -1,30 +1,30 @@
 import React from 'react';
 import '../styles/advance.css';
-import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import selectArrow from '../images/selectArrow.png';
 import advanceImg1 from '../images/advanceImg.png';
 import advanceImg2 from '../images/advanceImg2.png';
+import ThemeButton from '../components/button';
 
 const AdvanceDesign = () => {
-  const head = 'Advanced Desgin Features';
-  const buttonTitle = 'Start Building';
+  const head = 'Features';
+  const buttonTitle = 'Get Started Now';
 
   const advanceData1 = [
     {
       img: advanceImg1,
       arrowImg: selectArrow,
-      heading: 'Pre-Built Components',
+      heading: 'Pre-built themes',
       description:
-        'We have a library of 1000+ components to build a unique website. Drag and drop components to your website, make changes to the details and launch your website.',
+        'Our library of pre-built themes gives you a head start on creating a professional-looking website.',
     },
   ];
   const advanceData2 = [
     {
       img: advanceImg2,
       arrowImg: selectArrow,
-      heading: 'Drag-and-Drop Interface',
+      heading: 'Drag-and-drop builder',
       description:
-        'Emphasize the simplicity of designing a website by dragging and dropping elements such as text, images, and videos onto the page',
+        'Our drag-and-drop builder makes it easy to create a website without any coding experience.',
     },
   ];
   const advanceData3 = [
@@ -33,37 +33,26 @@ const AdvanceDesign = () => {
       arrowImg: selectArrow,
       heading: 'Customize theme',
       description:
-        'You can change theme colors, fonts to look good and as per your brand. A good design builds the brand of your website.',
+        "Your website's theme is the foundation of your brand. It's the first thing visitors see, and it sets the tone for their entire experience. That's why it's important to customize your theme to match your brand's colors, fonts, and overall look and feel.",
     },
   ];
   const advanceData4 = [
     {
       img: advanceImg2,
       arrowImg: selectArrow,
-      heading: 'SEO Friendly',
+      heading: 'SEO-friendly',
       description:
-        'We generate SEO friendly websites that ranks higher in google and other search engines, increases credibility and increases traffic.',
-    },
-  ];
-  const advanceData5 = [
-    {
-      img: advanceImg1,
-      arrowImg: selectArrow,
-      heading: 'Static Website',
-      description:
-        'We generate static websites that loads faster than dynamic websites. The user experience (UX), conversion rates and ultimately, sales revenue are increased when your websites loads faster.',
+        'Our themes are optimized for search engines, so your website will be more likely to appear in search results.',
     },
   ];
 
   return (
-    <div className="py-5">
+    <div className="py-5" id="features">
       <div className="px-lg-5 px-md-3 px-1">
         <div className="text-center">
           <h2 className=" fw-bold">{head}</h2>
           <p className="col-lg-6 col-md-10 col-12 m-auto">
-            We ensure that your website not only showcases your business in a
-            highly polished manner but also delivers a seamless user experience.
-            Here's what you can expect from our Features..
+          With our unique features, you can build and launch a website quickly and easily. Start building your website today!
           </p>
         </div>
         <div>
@@ -85,12 +74,7 @@ const AdvanceDesign = () => {
                     <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
                     <p>{item.description}</p>
                     <div className="widthButton ">
-                      <button className="buttonDesign  ">
-                        {buttonTitle}
-                        <span className="ms-2">
-                          <HiOutlineArrowNarrowRight size={20} />
-                        </span>
-                      </button>
+                      <ThemeButton arrow={true} buttonTitle={buttonTitle}></ThemeButton>
                     </div>
                   </div>
                 </div>
@@ -120,12 +104,7 @@ const AdvanceDesign = () => {
                     <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
                     <p>{item.description}</p>
                     <div className="widthButton ">
-                      <button className="buttonDesign  ">
-                        {buttonTitle}
-                        <span className="ms-2">
-                          <HiOutlineArrowNarrowRight size={20} />
-                        </span>
-                      </button>
+                      <ThemeButton arrow={true} buttonTitle={buttonTitle}></ThemeButton>
                     </div>
                   </div>
                 </div>
@@ -152,12 +131,7 @@ const AdvanceDesign = () => {
                     <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
                     <p>{item.description}</p>
                     <div className="widthButton ">
-                      <button className="buttonDesign  ">
-                        {buttonTitle}
-                        <span className="ms-2">
-                          <HiOutlineArrowNarrowRight size={20} />
-                        </span>
-                      </button>
+                      <ThemeButton arrow={true} buttonTitle={buttonTitle}></ThemeButton>
                     </div>
                   </div>
                 </div>
@@ -187,44 +161,7 @@ const AdvanceDesign = () => {
                     <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
                     <p>{item.description}</p>
                     <div className="widthButton ">
-                      <button className="buttonDesign  ">
-                        Start Building
-                        <span className="ms-2">
-                          <HiOutlineArrowNarrowRight size={20} />
-                        </span>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-        <div>
-          {advanceData5.map((item, i) => {
-            return (
-              <div key={i} className="d-flex flex-wrap extraMargin">
-                <div className="col-lg-7  col-md-6 col-12 d-flex justify-content-start align-items-center">
-                  <div className="">
-                    <img src={item.img} alt="img" className="img-fluid" />
-                  </div>
-                </div>
-                <div className="col-lg-5 col-md-6 col-12 d-flex justify-content-center align-items-center mt-lg-0 mt-md-0 mt-5">
-                  <div className="">
-                    <img
-                      src={item.arrowImg}
-                      alt="selectArrow"
-                      className="img-fluid"
-                    />
-                    <h2 className="fw-bold col-8 my-3">{item.heading}</h2>
-                    <p>{item.description}</p>
-                    <div className="widthButton ">
-                      <button className="buttonDesign  ">
-                        Start Building
-                        <span className="ms-2">
-                          <HiOutlineArrowNarrowRight size={20} />
-                        </span>
-                      </button>
+                      <ThemeButton arrow={true} buttonTitle={buttonTitle}></ThemeButton>
                     </div>
                   </div>
                 </div>

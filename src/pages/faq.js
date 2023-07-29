@@ -5,63 +5,63 @@ import { Link } from 'gatsby';
 const Faq = () => {
   const head = 'Frequently Asked Questions';
   const description = 'Can’t find the answers here?';
-  const span = 'Contact Us.';
+  const span = 'Contact Us';
 
   const [faqs, setFaqs] = useState([
     {
-      question: 'Is it easy to build a website?',
-      answer: '',
-      open: false,
+      question: 'Is it easy to build a website with BuildSite.io?',
+      answer: 'Yes, it is very easy to build a website with BuildSite.io. Our website builder has a drag-and-drop interface that makes it easy to create a website without any coding experience. We also have a library of pre-built themes that you can use to get started quickly.',
+      open: true,
     },
     {
-      question: 'Can I create a website without knowing coding?',
+      question: 'Can I create a website without knowing how to code?',
       answer:
-        'Yes, our website builder have a library of themes for most of the use case and have a library of components you can use to customize your website. Pro users can connect with out team for any help.',
-      open: false,
+        "Yes, you can create a website with BuildSite.io even if you don't know how to code. Our website builder has a drag-and-drop interface that makes it easy to create a website without any coding experience.",
+      open: true,
     },
     {
       question: 'Should I use a website builder or hire a web developer?',
       answer:
-        'You can use a website builder if you know how to setup a domain. If your website is complex and you have less knowledge about domain and website management then your should hire a developer.',
-      open: false,
+        'If you are looking for a quick and easy way to build a website, then a website builder is a good option. However, if you need a more complex website or you need help with SEO, then you may want to hire a web developer.',
+      open: true,
     },
     {
       question: 'How do I build and host my site for free?',
       answer:
-        'You can launch your website for free with BuildSite.io subdomain. You will have to pay to launch your website on custom domain.',
-      open: false,
+        'You can build and host your site for free with BuildSite.io, but you will have a BuildSite.io subdomain. If you want to host your site on a custom domain, then you will need to upgrade to a paid plan.',
+      open: true,
     },
     {
-      question: 'Is website built on BuildSite.io SEO optimized?',
+      question: 'Is my website built on BuildSite.io SEO optimized?',
       answer:
-        'Yes, all the websites launched onBuildSite.io are SEO optimized.',
-      open: false,
+        'Yes, all the websites built on BuildSite.io are SEO optimized. We use a variety of SEO techniques to help your website rank higher in search results.',
+      open: true,
     },
     {
       question: 'Can I use BuildSite.io to create a landing page?',
-      answer: 'Yes, you can create a landing or a website.',
-      open: false,
+      answer: 'Yes, you can use BuildSite.io to create a landing page. Landing pages are a great way to promote your products or services and collect leads.',
+      open: true,
     },
     {
-      question: 'Do BuildSite.io website work on mobile?',
-      answer: 'Yes, all the websites are mobile friendly.',
-      open: false,
+      question: 'Do BuildSite.io websites work on mobile?',
+      answer: 'Yes, all the websites built on BuildSite.io are mobile friendly. This means that your website will look great on any device, including smartphones and tablets.',
+      open: true,
     },
     {
       question: 'Can I export my data from the BuildSite.io platform?',
-      answer: 'Yes, you can export all the leads data.',
-      open: false,
+      answer: 'Yes, you can export all of your data from the BuildSite.io platform. This includes your website content, leads, and analytics data.',
+      open: true,
     },
   ]);
 
   const toggleFAQ = (index) => {
     setFaqs(
       faqs.map((faq, i) => {
-        if (i === index) {
-          faq.open = !faq.open;
-        } else {
-          faq.open = false;
-        }
+        // if (i === index) {
+        //   faq.open = !faq.open;
+        // } else {
+        //   faq.open = false;
+        // }
 
         return faq;
       })
@@ -72,12 +72,12 @@ const Faq = () => {
       <div className="px-lg-5 px-md-3 px-1">
         <div className="text-center">
           <h2 className="fw-bold">{head}</h2>
-          <p className="pGrey">
+          {/* <p className="pGrey">
             {description}&nbsp;
             <Link className="LinkGatsby" to="#contact">
               <span className="underlineHelpCenter">{span}</span>.
             </Link>
-          </p>
+          </p> */}
         </div>
         <div className="faqs mt-5">
           {faqs.map((faq, index) => (

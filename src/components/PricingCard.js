@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/pricingcard.css';
+import ThemeButton from './button';
 
 import { TiTick } from 'react-icons/ti';
 const PricingCard = () => {
@@ -15,37 +16,37 @@ const PricingCard = () => {
         'Drag-and-Drop Interface',
         'Customize theme',
         'SEO Friendly',
-        'Static Website',
+        // 'Static Website',
         'Custom Domain',
-      ],
-      price: 100,
-      month: 'INR/month',
-      price2: 1000,
-      month2: 'INR/year',
-    },
-    {
-      heading: 'Pro',
-      icon: <TiTick size={20} className="me-2" />,
-      link: [
-        '1 Website',
-        'Pre-Built Components',
-        'Drag-and-Drop Interface',
-        'Customize theme',
-        'SEO Friendly',
-        'Static Website',
-        'Custom Domain',
-        ' Contact Form / Lead Form',
-        ' Analytics,',
       ],
       price: 200,
       month: 'INR/month',
       price2: 2000,
       month2: 'INR/year',
     },
+    // {
+    //   heading: 'Pro',
+    //   icon: <TiTick size={20} className="me-2" />,
+    //   link: [
+    //     '1 Website',
+    //     'Pre-Built Components',
+    //     'Drag-and-Drop Interface',
+    //     'Customize theme',
+    //     'SEO Friendly',
+    //     'Static Website',
+    //     'Custom Domain',
+    //     ' Contact Form / Lead Form',
+    //     ' Analytics,',
+    //   ],
+    //   price: 200,
+    //   month: 'INR/month',
+    //   price2: 2000,
+    //   month2: 'INR/year',
+    // },
   ];
 
   const billMonthly = 'Bill Monthly';
-  const annualMonthly = 'Bill Annually';
+  const annualMonthly = 'Yearly';
 
   const handleClick = () => {
     setToggleButton(!toggleButton);
@@ -54,14 +55,14 @@ const PricingCard = () => {
     <>
       <div className="">
         <div className="mx-auto col-lg-4 col-12 col-md-6 col-sm-8  d-flex flex-row justify-content-evenly">
-          <h6 className="my-auto fw-bold">{billMonthly}</h6>
+          {/* <h6 className="my-auto fw-bold">{billMonthly}</h6>
           <div className="toggle" aria-hidden="true" onClick={handleClick}>
             {toggleButton ? (
               <div className="toggle_left"></div>
             ) : (
               <div className="toggle_right"></div>
             )}
-          </div>
+          </div> */}
           <h6 className="fw-normal my-auto">{annualMonthly}</h6>
         </div>
         <div
@@ -80,8 +81,7 @@ const PricingCard = () => {
                   </h5>
                 </div>
                 <ul
-                  className="list-unstyled textColor"
-                  style={{ height: '400px' }}
+                  className="list-unstyled textColor mb-5"
                 >
                   {item.link.map((links, i) => {
                     return (
@@ -105,9 +105,7 @@ const PricingCard = () => {
                     </h5>
                   )}
                 </div>
-                <button id="buttonChoose" className="">
-                  Choose
-                </button>
+                <ThemeButton arrow={true} buttonTitle={'Choose'}></ThemeButton>
               </div>
             );
           })}
