@@ -4,7 +4,7 @@ import ThemeButton from './button';
 
 import { TiTick } from 'react-icons/ti';
 const PricingCard = () => {
-  const [toggleButton, setToggleButton] = useState(true);
+  const [toggleButton, setToggleButton] = useState(false);
 
   const data1 = [
     {
