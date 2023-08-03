@@ -20,6 +20,7 @@ const Home = () => {
       <Helmet title={headline}>
         <html lang="en" />
         <meta name="icon" href={favicon} />
+        <link rel="icon" type="image/x-icon" href={favicon}></link>
         <meta name="theme-color" content="#ffffff"></meta>
       </Helmet>
       <Banner />
