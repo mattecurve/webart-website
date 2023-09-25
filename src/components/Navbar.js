@@ -58,7 +58,7 @@ const Navbar = () => {
           </div>
           <div className="d-none d-xl-block">
             <div className='d-inline-block'>
-              <Link to="https://form.buildsite.io/" target='_blank'>
+              <Link to="https://app.buildsite.io/" target='_blank'>
                 <button className="buttonUnDesign me-2">
                   Log In
                   <span className="ms-2">
